@@ -1,7 +1,7 @@
 class GithubOpen < Formula
   homepage "https://github.com/andrewjtait/github-open"
-  url "https://github.com/andrewjtait/github-open/archive/v1.0.0.tar.gz"
-  sha256 "fb8c9db5d1ed8ca903c75d9a5c207eaf28f778a1609e8ea0d9b5e533787162fe"
+  url "https://github.com/andrewjtait/github-open/archive/v1.1.0.tar.gz"
+  sha256 "bcf38dda6f70c95bdb562a714713da9d6f669a28c18d980b3f17fda51f55c58a"
 
   def install
     bash_completion.install 'github-open'
